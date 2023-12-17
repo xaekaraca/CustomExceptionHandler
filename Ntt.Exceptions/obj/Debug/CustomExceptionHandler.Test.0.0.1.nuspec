@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>CustomExceptionHandler.Test</id>
+    <version>0.0.1</version>
+    <authors>xaekaraca</authors>
+    <license type="expression">MIT OR Apache-2.0</license>
+    <licenseUrl>https://licenses.nuget.org/MIT%20OR%20Apache-2.0</licenseUrl>
+    <readme>README.md</readme>
+    <description>Package Description</description>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="Microsoft.AspNetCore.OpenApi" version="8.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Azure.Cosmos" version="3.37.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="/Users/xaekaraca/RiderProjects/Ntt.Exceptions/Ntt.Exceptions/bin/Debug/net8.0/Ntt.Exceptions.dll" target="lib/net8.0/Ntt.Exceptions.dll" />
+    <file src="/Users/xaekaraca/RiderProjects/Ntt.Exceptions/Ntt.Exceptions/docs/README.md" target="/README.md" />
+  </files>
+</package>
