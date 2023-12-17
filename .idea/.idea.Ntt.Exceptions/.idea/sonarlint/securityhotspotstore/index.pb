@@ -63,3 +63,5 @@ J
 .WebApplication1/Properties/launchSettings.json,e/3/e377041c466770724982b8f2fccc84030e1a88ed
 B
 Ntt.Exceptions.sln,3/8/38f279dca307e9ecf51ecb37d4d20970804114c6
+n
+>Ntt.Exceptions/obj/Debug/net8.0/Ntt.Exceptions.AssemblyInfo.cs,7/4/74c85421e3ea7e0ce380f35410055d023779537d
