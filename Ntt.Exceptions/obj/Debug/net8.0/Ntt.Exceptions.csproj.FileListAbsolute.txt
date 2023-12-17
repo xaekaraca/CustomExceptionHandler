@@ -15,3 +15,4 @@
 /Users/xaekaraca/RiderProjects/Ntt.Exceptions/Ntt.Exceptions/obj/Debug/net8.0/refint/Ntt.Exceptions.dll
 /Users/xaekaraca/RiderProjects/Ntt.Exceptions/Ntt.Exceptions/obj/Debug/net8.0/Ntt.Exceptions.pdb
 /Users/xaekaraca/RiderProjects/Ntt.Exceptions/Ntt.Exceptions/obj/Debug/net8.0/ref/Ntt.Exceptions.dll
+/Users/xaekaraca/RiderProjects/Ntt.Exceptions/Ntt.Exceptions/obj/Debug/net8.0/Ntt.Exceptions.sourcelink.json

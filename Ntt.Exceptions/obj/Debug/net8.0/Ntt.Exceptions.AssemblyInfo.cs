@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("xaekaraca")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("0.0.3.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.0.3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.0.3+73f57aab76840a52f71ba6b812a61f3b31850ad5")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ntt.Exceptions")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ntt.Exceptions")]
 [assembly: System.Reflection.AssemblyVersionAttribute("0.0.3.0")]

@@ -8,7 +8,7 @@
     <licenseUrl>https://licenses.nuget.org/MIT%20OR%20Apache-2.0</licenseUrl>
     <readme>README.md</readme>
     <description>Package Description</description>
-    <repository type="git" />
+    <repository type="git" commit="73f57aab76840a52f71ba6b812a61f3b31850ad5" />
     <dependencies>
       <group targetFramework="net8.0">
         <dependency id="Microsoft.AspNetCore.OpenApi" version="8.0.0" exclude="Build,Analyzers" />
@@ -18,6 +18,6 @@
   </metadata>
   <files>
     <file src="/Users/xaekaraca/RiderProjects/Ntt.Exceptions/Ntt.Exceptions/bin/Debug/net8.0/Ntt.Exceptions.dll" target="lib/net8.0/Ntt.Exceptions.dll" />
-    <file src="/Users/xaekaraca/RiderProjects/Ntt.Exceptions/Ntt.Exceptions/docs/README.md" target="/README.md" />
+    <file src="/Users/xaekaraca/RiderProjects/Ntt.Exceptions/README.md" target="/README.md" />
   </files>
 </package>
