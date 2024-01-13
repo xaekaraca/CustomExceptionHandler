@@ -1,0 +1,13 @@
+/Users/xaekaraca/RiderProjects/Ntt.Exceptions/CustomExceptionHandler/bin/Debug/net8.0/CustomExceptionHandler.deps.json
+/Users/xaekaraca/RiderProjects/Ntt.Exceptions/CustomExceptionHandler/bin/Debug/net8.0/CustomExceptionHandler.dll
+/Users/xaekaraca/RiderProjects/Ntt.Exceptions/CustomExceptionHandler/bin/Debug/net8.0/CustomExceptionHandler.pdb
+/Users/xaekaraca/RiderProjects/Ntt.Exceptions/CustomExceptionHandler/obj/Debug/net8.0/CustomExceptionHandler.csproj.AssemblyReference.cache
+/Users/xaekaraca/RiderProjects/Ntt.Exceptions/CustomExceptionHandler/obj/Debug/net8.0/CustomExceptionHandler.GeneratedMSBuildEditorConfig.editorconfig
+/Users/xaekaraca/RiderProjects/Ntt.Exceptions/CustomExceptionHandler/obj/Debug/net8.0/CustomExceptionHandler.AssemblyInfoInputs.cache
+/Users/xaekaraca/RiderProjects/Ntt.Exceptions/CustomExceptionHandler/obj/Debug/net8.0/CustomExceptionHandler.AssemblyInfo.cs
+/Users/xaekaraca/RiderProjects/Ntt.Exceptions/CustomExceptionHandler/obj/Debug/net8.0/CustomExceptionHandler.csproj.CoreCompileInputs.cache
+/Users/xaekaraca/RiderProjects/Ntt.Exceptions/CustomExceptionHandler/obj/Debug/net8.0/CustomExceptionHandler.sourcelink.json
+/Users/xaekaraca/RiderProjects/Ntt.Exceptions/CustomExceptionHandler/obj/Debug/net8.0/CustomExceptionHandler.dll
+/Users/xaekaraca/RiderProjects/Ntt.Exceptions/CustomExceptionHandler/obj/Debug/net8.0/refint/CustomExceptionHandler.dll
+/Users/xaekaraca/RiderProjects/Ntt.Exceptions/CustomExceptionHandler/obj/Debug/net8.0/CustomExceptionHandler.pdb
+/Users/xaekaraca/RiderProjects/Ntt.Exceptions/CustomExceptionHandler/obj/Debug/net8.0/ref/CustomExceptionHandler.dll

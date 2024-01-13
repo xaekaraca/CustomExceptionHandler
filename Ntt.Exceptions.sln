@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ntt.Exceptions", "Ntt.Exceptions\Ntt.Exceptions.csproj", "{6BBA5527-54B6-4590-9FC7-FFCEF50D595C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomExceptionHandler", "CustomExceptionHandler\CustomExceptionHandler.csproj", "{6BBA5527-54B6-4590-9FC7-FFCEF50D595C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
