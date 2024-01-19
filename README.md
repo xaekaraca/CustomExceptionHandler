@@ -64,5 +64,12 @@ If you want to log form-data payload. You should handle anti-forgery token.
 Either disable for the particular action or add the token to the form-data.
 
 
+## Incoming Features
+
+- [ ] ValidationExceptionHandler
+- [ ] ConflictExceptionHandler
+- [ ] AI integration for translating exception messages.
+
+
 
  
