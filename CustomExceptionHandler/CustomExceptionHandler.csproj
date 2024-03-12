@@ -4,14 +4,14 @@
         <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <PackageId>CustomExceptionHandler.Test</PackageId>
-        <Version>0.0.4</Version>
+        <PackageId>NTT.ExceptionHandler</PackageId>
+        <Version>1.0.0</Version>
         <Authors>xaekaraca</Authors>
         <RepositoryUrl>https://github.com/xaekaraca/CustomExceptionHandler</RepositoryUrl>
         <PackageLicenseExpression>MIT OR Apache-2.0</PackageLicenseExpression>
         <PackageReadmeFile>README.md</PackageReadmeFile>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <RootNamespace>Ntt.Exceptions</RootNamespace>
+        <RootNamespace>NTT.Exceptions</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>

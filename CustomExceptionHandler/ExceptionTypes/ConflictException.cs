@@ -1,5 +1,6 @@
 namespace NTT.Exceptions.ExceptionTypes;
 
+[Serializable]
 public class ConflictException : Exception
 {
     public ConflictException() { }

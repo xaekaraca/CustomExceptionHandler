@@ -1,5 +1,6 @@
 namespace NTT.Exceptions.ExceptionTypes;
 
+[Serializable]
 public class ValidationException : Exception
 {
     public ValidationException() { }
