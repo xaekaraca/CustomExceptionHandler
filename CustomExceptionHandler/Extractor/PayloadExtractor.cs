@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Http;
 using Newtonsoft.Json.Linq;
 
-namespace Ntt.Exceptions.Extractor;
+namespace NTT.Exceptions.Extractor;
 
 public static class PayloadExtractor
 {

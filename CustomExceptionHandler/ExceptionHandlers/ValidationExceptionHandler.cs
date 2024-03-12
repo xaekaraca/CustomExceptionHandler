@@ -6,7 +6,7 @@ using NTT.Exceptions.Mapper;
 
 namespace NTT.Exceptions.ExceptionHandlers;
 
-public class BusinessExceptionHandler(ILogger logger) : IExceptionHandler
+public class ValidationExceptionHandler(ILogger logger) : IExceptionHandler
 {
     public async ValueTask<bool> TryHandleAsync(HttpContext httpContext, Exception exception, CancellationToken cancellationToken)
     {
@@ -20,7 +20,7 @@ public class BusinessExceptionHandler(ILogger logger) : IExceptionHandler
         
         logger.LogError(
             exception, 
-            "BusinessException occurred with the traceId: {TraceId}", 
+            "ValidationException occurred with the traceId: {TraceId}", 
             body.Result.TraceId);
             
         await httpContext.Response.WriteAsync(serializedBody, cancellationToken);

@@ -1,4 +1,4 @@
-﻿namespace Ntt.Exceptions.Model;
+﻿namespace NTT.Exceptions.Model;
 
 public class ExceptionModel
 {

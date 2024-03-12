@@ -1,8 +1,9 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
+using NTT.Exceptions;
 
 
-namespace Ntt.Exceptions;
+namespace NTT.Exceptions;
 
 public static class Bootstrapper
 {

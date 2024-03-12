@@ -1,10 +1,10 @@
 using System.Text;
 using Microsoft.AspNetCore.Http;
 using Newtonsoft.Json.Linq;
-using Ntt.Exceptions.Extractor;
-using Ntt.Exceptions.Model;
+using NTT.Exceptions.Extractor;
+using NTT.Exceptions.Model;
 
-namespace Ntt.Exceptions.Mapper;
+namespace NTT.Exceptions.Mapper;
 
 public static class ExceptionDataMapper
 {

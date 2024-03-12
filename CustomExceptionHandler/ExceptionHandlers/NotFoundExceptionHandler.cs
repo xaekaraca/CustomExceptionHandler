@@ -2,9 +2,9 @@ using System.Text.Json;
 using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
-using Ntt.Exceptions.Mapper;
+using NTT.Exceptions.Mapper;
 
-namespace Ntt.Exceptions.ExceptionHandlers;
+namespace NTT.Exceptions.ExceptionHandlers;
 
 public class NotFoundExceptionHandler(ILogger logger) : IExceptionHandler
 {

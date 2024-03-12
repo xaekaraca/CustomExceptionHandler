@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "qGj9urS3Z4b8rjP18dzNdPwk17WYjkUJVDqBDDWwuI3dWYdnvUYSDtrg0pykUoj7oiIp/rUxzSib75t+aeCTcw==",
+  "dgSpecHash": "u50lgvThJ8fjUhfzLyn0DH7R7qZkQhT4D0nedB/t8TkdIate9+Gt8pAVZM6CzhOgNUvWF6ekBXPVRwFYvtKGHQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\TR\\RiderProjects\\CustomExceptionHandler\\CustomExceptionHandler\\CustomExceptionHandler.csproj",
+  "projectFilePath": "/Users/xaekaraca/RiderProjects/Ntt.Exceptions/CustomExceptionHandler/CustomExceptionHandler.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\TR\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.0\\microsoft.aspnetcore.openapi.8.0.0.nupkg.sha512",
-    "C:\\Users\\TR\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
-    "C:\\Users\\TR\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "/Users/xaekaraca/.nuget/packages/microsoft.aspnetcore.openapi/8.0.0/microsoft.aspnetcore.openapi.8.0.0.nupkg.sha512",
+    "/Users/xaekaraca/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/Users/xaekaraca/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,7 +1,7 @@
-using Ntt.Exceptions.ExceptionTypes;
-using Ntt.Exceptions.Model;
+using NTT.Exceptions.ExceptionTypes;
+using NTT.Exceptions.Model;
 
-namespace Ntt.Exceptions.Mapper;
+namespace NTT.Exceptions.Mapper;
 
 public static class ExceptionMapper
 {

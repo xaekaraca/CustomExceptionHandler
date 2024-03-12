@@ -1,4 +1,4 @@
-namespace Ntt.Exceptions;
+namespace NTT.Exceptions;
 
 public static class ExceptionConstants
 {

@@ -1,4 +1,4 @@
-namespace Ntt.Exceptions.ExceptionTypes;
+namespace NTT.Exceptions.ExceptionTypes;
 
 [Serializable]
 public class UnauthorizedException : Exception

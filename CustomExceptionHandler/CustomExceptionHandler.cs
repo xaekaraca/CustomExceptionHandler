@@ -1,10 +1,10 @@
 using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
-using Ntt.Exceptions.ExceptionHandlers;
-using Ntt.Exceptions.ExceptionTypes;
+using NTT.Exceptions.ExceptionHandlers;
+using NTT.Exceptions.ExceptionTypes;
 
-namespace Ntt.Exceptions;
+namespace NTT.Exceptions;
 
 public class CustomExceptionHandler(ILogger<CustomExceptionHandler> logger) : IExceptionHandler
 {
@@ -23,6 +23,10 @@ public class CustomExceptionHandler(ILogger<CustomExceptionHandler> logger) : IE
             OperationalException => await new OperationalExceptionHandler(logger).TryHandleAsync(httpContext, exception,
                 cancellationToken),
             BusinessException => await new BusinessExceptionHandler(logger).TryHandleAsync(httpContext, exception,
+                cancellationToken),
+            ConflictException => await new ConflictExceptionHandler(logger).TryHandleAsync(httpContext, exception,
+                cancellationToken),
+            ValidationException => await new ValidationExceptionHandler(logger).TryHandleAsync(httpContext, exception,
                 cancellationToken),
             _ => await new SystemExceptionHandler(logger).TryHandleAsync(httpContext, exception, cancellationToken)
         };

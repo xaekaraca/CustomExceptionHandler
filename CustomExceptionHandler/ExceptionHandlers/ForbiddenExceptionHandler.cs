@@ -2,10 +2,10 @@ using System.Text.Json;
 using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
-using Ntt.Exceptions.ExceptionTypes;
-using Ntt.Exceptions.Mapper;
+using NTT.Exceptions.ExceptionTypes;
+using NTT.Exceptions.Mapper;
 
-namespace Ntt.Exceptions.ExceptionHandlers;
+namespace NTT.Exceptions.ExceptionHandlers;
 
 public class ForbiddenExceptionHandler(ILogger logger) : IExceptionHandler
 {

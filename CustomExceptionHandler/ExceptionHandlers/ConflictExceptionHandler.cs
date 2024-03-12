@@ -6,7 +6,7 @@ using NTT.Exceptions.Mapper;
 
 namespace NTT.Exceptions.ExceptionHandlers;
 
-public class BusinessExceptionHandler(ILogger logger) : IExceptionHandler
+public class ConflictExceptionHandler(ILogger logger) : IExceptionHandler
 {
     public async ValueTask<bool> TryHandleAsync(HttpContext httpContext, Exception exception, CancellationToken cancellationToken)
     {
