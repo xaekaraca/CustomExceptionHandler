@@ -1,20 +1,19 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
-using NTT.Exceptions;
 
 
 namespace NTT.Exceptions;
 
 public static class Bootstrapper
 {
-    public static void AddCustomExceptionHandler (this IServiceCollection services)
+    public static void AddNTTExceptionHandler (this IServiceCollection services)
     {
         services.AddLogging();
         
-        services.AddExceptionHandler<CustomExceptionHandler>();
+        services.AddExceptionHandler<NTTExceptionHandler>();
     }
     
-    public static void UseCustomExceptionHandler(this IApplicationBuilder app)
+    public static void UseNTTExceptionHandler(this IApplicationBuilder app)
     {
         app.Use(async (context, next) =>
         {

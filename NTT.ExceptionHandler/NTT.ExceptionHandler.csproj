@@ -5,7 +5,7 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <PackageId>NTT.ExceptionHandler</PackageId>
-        <Version>1.0.0</Version>
+        <Version>1.0.1</Version>
         <Authors>xaekaraca</Authors>
         <RepositoryUrl>https://github.com/xaekaraca/CustomExceptionHandler</RepositoryUrl>
         <PackageLicenseExpression>MIT OR Apache-2.0</PackageLicenseExpression>

@@ -15,4 +15,8 @@ public static class ExceptionConstants
     public const string NotFoundExceptionName = "Not.Found.Exception";
     
     public const string OperationalExceptionName = "Operational.Exception";
+    
+    public const string ConflictExceptionName = "Conflict.Exception";
+    
+    public const string ValidationExceptionName = "Validation.Exception";
 }

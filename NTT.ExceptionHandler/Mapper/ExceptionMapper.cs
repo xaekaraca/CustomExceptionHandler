@@ -19,6 +19,16 @@ public static class ExceptionMapper
                     Message = businessException.Message
                 }
             },
+            ValidationException validationException => new ExceptionModel
+            {
+                StatusCode = 400,
+                Result = new ExceptionDetailModel
+                {
+                    TraceId = Guid.NewGuid(),
+                    ExceptionType = ExceptionConstants.ValidationExceptionName,
+                    Message = validationException.Message
+                }
+            },
             UnauthorizedException unauthorizedException => new ExceptionModel
             {
                 StatusCode = 401,
@@ -47,6 +57,16 @@ public static class ExceptionMapper
                     TraceId = Guid.NewGuid(),
                     ExceptionType = ExceptionConstants.NotFoundExceptionName,
                     Message = notFoundException.Message
+                }
+            },
+            ConflictException conflictException => new ExceptionModel
+            {
+                StatusCode = 409,
+                Result = new ExceptionDetailModel
+                {
+                    TraceId = Guid.NewGuid(),
+                    ExceptionType = ExceptionConstants.ConflictExceptionName,
+                    Message = conflictException.Message
                 }
             },
             DatabaseException databaseException => new ExceptionModel

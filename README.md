@@ -5,11 +5,11 @@ Requires .NET 8.0 or higher.
 ## Usage
 
 ```csharp 
-builder.Services.AddCustomExceptionHandler();
+builder.Services.AddNTTExceptionHandler();
 ```
 
 ```csharp
-app.UseCustomExceptionHandler();
+app.UseNTTExceptionHandler();
 ```
 
 ```csharp
@@ -66,8 +66,6 @@ Either disable for the particular action or add the token to the form-data.
 
 ## Incoming Features
 
-- [ ] ValidationExceptionHandler
-- [ ] ConflictExceptionHandler
 - [ ] AI integration for translating exception messages.
 
 
