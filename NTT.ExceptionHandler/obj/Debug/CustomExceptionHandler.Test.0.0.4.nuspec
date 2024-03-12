@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>CustomExceptionHandler.Test</id>
+    <version>0.0.4</version>
+    <authors>xaekaraca</authors>
+    <license type="expression">MIT OR Apache-2.0</license>
+    <licenseUrl>https://licenses.nuget.org/MIT%20OR%20Apache-2.0</licenseUrl>
+    <readme>README.md</readme>
+    <description>Package Description</description>
+    <repository type="git" url="https://github.com/xaekaraca/CustomExceptionHandler" commit="8f6f2bd2414ddc8237ab237bb80ae446fed675ac" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="Microsoft.AspNetCore.OpenApi" version="8.0.0" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="13.0.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="/Users/xaekaraca/RiderProjects/Ntt.Exceptions/CustomExceptionHandler/bin/Debug/net8.0/CustomExceptionHandler.dll" target="lib/net8.0/CustomExceptionHandler.dll" />
+    <file src="/Users/xaekaraca/RiderProjects/Ntt.Exceptions/README.md" target="/README.md" />
+  </files>
+</package>
